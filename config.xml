@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.codesundar.filetransfer2" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>APP</name>
+<widget id="com.codesundar.filetransfer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>FileTransfer</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -8,12 +8,8 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-	<preference name="android-minSdkVersion" value="30" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-			<preference name="AndroidPersistentFileLocation" value="Compatibility" />
-<plugin name="cordova-plugin-file-transfer" spec="1" />
-<plugin name="cordova-plugin-file" spec="1" />
-<plugin name="cordova-plugin-camera" spec="1" />
+		<preference name="android-minSdkVersion" value="30" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
