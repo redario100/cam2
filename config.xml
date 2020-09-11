@@ -11,6 +11,9 @@
 	<preference name="android-minSdkVersion" value="30" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
 			<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+<plugin name="cordova-plugin-file-transfer" spec="1" />
+<plugin name="cordova-plugin-file" spec="1" />
+<plugin name="cordova-plugin-camera" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
